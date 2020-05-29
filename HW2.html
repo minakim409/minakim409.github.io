@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>前端程式設計作業二</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+</head>
+
+
+<style>
+    .container {
+        background-image: url("https://i.pinimg.com/originals/85/d7/de/85d7de9a4a4d55a198dfcfd00a045f84.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+        top: 127px;
+        right: 7px;
+        width: 360px;
+        height: 640px;
+        /* border-radius: 30px; */
+        color: aliceblue;
+    }
+
+  
+
+    .phone{
+        background-image: url("https://cdn.pixabay.com/photo/2016/07/30/19/33/smartphone-1557796_960_720.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: static;
+        width: 640px;
+        height: 880px;
+    }
+
+    .icon {
+        width: 45px;
+        cursor: pointer;
+    }
+
+
+    .icon_label {
+        font-size: 14px;
+        color: aliceblue;
+    }
+
+    .weather {
+        width: 100%;
+        height: 250px;
+        /* background-color: #fff; */
+    }
+
+    .weather_text {
+        /* padding-top: 150px; */
+        color: black;
+    }
+
+    .weather_img {
+        width: 90px;
+        padding-top: 80px;
+    }
+
+    .dot {
+        font-size: 30px;
+    }
+
+    .battery{
+        width: 20px;
+        position: relative;
+        left: 50px; 
+    }
+
+
+</style>
+
+<!-- Weather is also the app(icon) -->
+<body>
+    <div class="phone">
+        <div class="container">
+            <div class="row" id="status_bar">
+                <p>&nbsp;&nbsp;&nbsp;13:15 PM</p>
+                <div class="col offset-6">
+                    <img class="battery" src="https://pngriver.com/wp-content/uploads/2017/11/Battery-PNG-transparent-images-free-download-clipart-pics-middle_battery1600.png">
+                    
+                </div>
+            </div>
+
+            <div class="weather text-center">
+                <a class="icon" href="https://weather.com/" taget="blank">
+                <img class="weather_img" src="https://cdn3.iconfinder.com/data/icons/weather-16/256/Rainy_Day-512.png" alt="">
+                </a>
+                <p class="weather_text">
+                    25 <br> raining
+                </p>
+            </div>
+
+            <div class="row">
+            <div class="col py-2 text-center" >
+                <a class="icon" href="https://www.samsung.com/us/support/owners/app/galaxy-wearable-watch" target="blank">
+                <img class="icon" src="https://terrariumtvforpcwindows.com/wp-content/uploads/2018/12/Download-Galaxy-Wearable-Samsung-Gear.png" alt="">
+                </a>
+                <p class="icon_label">Galaxy Wearable</p>
+            </div>
+            <div class="col offset-6 py-2 text-center">
+                <a class="icon" href="https://www.instagram.com/" target="blank">
+                <img class="icon" src="http://img.talkandroid.com/uploads/2016/05/Instagram_app_icon_2016-450x450.png">
+                </a>
+                <p class="icon_label">instagram</p>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col py-2 text-center">
+                <a class="icon" href="https://www.messenger.com/?_rdr" target="blank">
+                <img class="icon" src="http://img.talkandroid.com/uploads/2014/03/Facebook_Messenger_Large_Icon.png">
+                </a>
+                <p class="icon_label">messenger</p>
+            </div>
+            <div class="col py-2 text-center">
+                <a class="icon" href="https://www.youtube.com/" target="blank">
+                <img class="icon" src="https://cdn2.iconfinder.com/data/icons/social-icons-color/512/youtube-512.png">
+                </a>
+                <p class="icon_label">youtube</p>
+            </div>
+            <div class="col py-2 text-center">
+                <a class="icon" href="https://www.spotify.com/tw/" target="blank">
+                <img class="icon" src="http://pre14.deviantart.net/5e2b/th/pre/f/2015/245/9/b/new_spotify_icon_by_mattroxzworld-d98301o.png">
+                </a>
+                <p class="icon_label">spotify</p>
+            </div>
+            <div class="col py-2 text-center">
+                <a class="icon" href="https://www.whatsapp.com/" target="blank">
+                <img class="icon" src="https://i.pinimg.com/originals/96/d4/9f/96d49fa98516cfdae36a925ff0c30588.png">
+                </a>
+                <p class="icon_label">whatsapp</p>
+            </div>
+            </div>
+
+            <div class="row">
+                <div class="col text-center">
+                    <p class="dot m-0">
+                        . . .
+                    </p>
+                </div>
+            </div>
+            
+
+            <div class="row">
+                <div class="col py-2 text-center">
+                    <img class="icon" src="https://cdn1.iconfinder.com/data/icons/galaxy-open-line-color-ii/200/phone-128.png">
+                    <p class="icon_label">Phone</p>
+                </div>
+                <div class="col py-2 text-center">
+                    <img class="icon" src="https://cdn1.iconfinder.com/data/icons/galaxy-open-line-color-i/200/messaging-512.png">
+                    <p class="icon_label">Message</p>
+                </div>
+                <div class="col py-2 text-center">
+                    <a class="icon" href="https://www.google.com/chrome/" target="blank">
+                    <img class="icon" src="https://icons.iconarchive.com/icons/dtafalonso/android-l/512/Chrome-icon.png">
+                    </a>
+                    <p class="icon_label">Chrome</p>
+                </div>
+                <div class="col py-2 text-center">
+                    <img class="icon" src="https://androidapksfree.com/wp-content/uploads/2018/04/Samsung-Camera-APK-2.png">
+                    <p class="icon_label">Camera</p>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+    
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>
