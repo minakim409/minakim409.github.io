@@ -18,15 +18,17 @@ By using :
 
 changed the scroll bar design.
 
-#### 2. Picture part : I've changed the hover design.
+#### 2. Picture part : I've changed the hover, active design.
 There was a blue color, and I've changed it to transparent. Also, editted the details.
+
+##### When you click the picture part, you could find the linked gallery.
 
 
 #### 3. I've changed the all color of this website.
 I used the color what I wanted to use. 
 
 #### 4. I've added the slider.
-I added the picture slider. By using owl-carousel from js.
+I added the activities slider. By using owl-carousel from js.
 
 #### 5. I've changed the size of website.
 I wanted to have full size of website, thus I changed it.
