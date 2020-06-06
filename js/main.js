@@ -291,8 +291,13 @@
 		//    autoWidth: true,
 		//    itemsCustom:false,
 		//    itemsDesktop : [1199,3],
-      	// 	itemsDesktopSmall : [979,3],
+		  // 	itemsDesktopSmall : [979,3],
 		   center:true,
+		//    itemsScaleUp:false;
+			slideSpeed : 200,	
+			responsive: true,
+			responsiveRefreshRate : 200,
+			responsiveBaseWidth: window,
 		   items: 1,
 		   navText: [
 		      "<i class='icon-arrow-left3 owl-direction'></i>",
@@ -300,6 +305,7 @@
 	     	]
 		})
 	};
+	
 
 
 	// Document on load.
