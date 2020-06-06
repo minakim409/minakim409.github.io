@@ -283,11 +283,16 @@
 			animateOut: 'fadeOut',
 		   animateIn: 'fadeIn',
 		   autoplay: true,
-		   loop:true,
+		   loop:false,
 		   margin:0,
 		   nav:true,
 		   dots: false,
 		   autoHeight: true,
+		//    autoWidth: true,
+		//    itemsCustom:false,
+		//    itemsDesktop : [1199,3],
+      	// 	itemsDesktopSmall : [979,3],
+		   center:true,
 		   items: 1,
 		   navText: [
 		      "<i class='icon-arrow-left3 owl-direction'></i>",
@@ -295,6 +300,7 @@
 	     	]
 		})
 	};
+
 
 	// Document on load.
 	$(function(){
